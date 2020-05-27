@@ -218,6 +218,7 @@ We want node-red to run automatically every time the server restarts
 <br>
 <br>
 In terminal:
+
 ```
 $ sudo systemctl enable nodered.service
 ```
@@ -309,7 +310,7 @@ Paste the following into the editor, making sure to change one line:
 <br>
 To the subdomain.domain.com that you own
 ```
-#proxy for node-red @ port :30000
+#proxy for node-red @ port :1880
 server {
     	listen 80;
 	listen [::]:80;
